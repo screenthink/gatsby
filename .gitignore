@@ -60,3 +60,6 @@ typings/
 .cache/
 public
 yarn-error.log
+.gatsby-context.js
+.DS_Store
+.intermediate-representation/
