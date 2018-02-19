@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
-class IndexPage extends Component {
+class AboutPage extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Home</h1>
-        <Link to="/about/">About Me</Link>
+        <h1>About</h1>
+        <Link to="/">Home</Link>
       </div>
     );
   }
 }
 
-export default IndexPage;
+export default AboutPage;
