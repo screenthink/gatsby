@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from 'styles';
-import { Footer } from 'components/shared';
+import { Footer, TopBar } from 'components/shared';
 import './index.css';
 
 const Wrapper = styled.div`
@@ -27,6 +27,7 @@ class TemplateWrapper extends React.Component {
             },
           ]}
         />
+        <TopBar />
         <ThemeProvider theme={theme}>{this.props.children()}</ThemeProvider>
         <Footer />
       </Wrapper>

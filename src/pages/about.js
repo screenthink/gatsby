@@ -5,7 +5,7 @@ import { theme } from 'styles';
 import { Container } from 'components/shared';
 
 const Headline = styled.h1`
-  margin: 30px 0;
+  margin: 0 0 30px;
   font-size: 50px;
   line-height: 50px;
   font-weight: 400;

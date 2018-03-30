@@ -5,7 +5,7 @@ import { theme } from 'styles';
 import { Container } from 'components/shared';
 
 const Footer = () => {
-  return <Container>marlon.works</Container>;
+  return <Container>{/* <div>marlon.works</div> */}</Container>;
 };
 
 export default Footer;
